@@ -1,1 +1,147 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy — RG GAMER BOY FF</title><link rel="stylesheet" href="./styles.css"></head><body><article class="doc"><a class="back" href="./">← Back to sign in</a><h1>Privacy Policy</h1><p>Last updated: 23 November 2026</p><p>This policy describes the information handled by the RG GAMER BOY FF sign-in website as currently implemented. It should be updated if the website begins collecting or processing additional information.</p><h2>1. Sign-in choices</h2><p><b>Google sign-in:</b> Google and Firebase Authentication process sign-in. This website can receive your Firebase user ID, display name, email address and profile photo URL when Google provides them. This website does not receive your Google password.</p><p><b>Guest sign-in:</b> Firebase Authentication creates an anonymous account with a Firebase user ID. A guest account may not have a verified email address and may be difficult to recover if its browser data or session is lost.</p><p><b>Username and password:</b> The separate existing login website is opened at <a href="https://rggamerboyff01.github.io/FREE-FIRE-PRIVATE-SERVER-2023/">this address</a>. This Firebase sign-in page does not collect the username or password entered on that separate website.</p><h2>2. Firebase database information</h2><p>For Google and guest sign-ins, this website writes a basic profile under your own Firebase user ID in the configured Firebase Realtime Database. The profile fields used by this version are user ID, sign-in provider, display name, email when available, profile photo URL when available, region, country, and a last sign-in timestamp.</p><h2>3. Purpose and access</h2><p>This information is used to identify the signed-in Firebase account and show its basic account details. Database access is intended to be restricted by Firebase Realtime Database Security Rules. Do not publish this website until the rules have been installed and tested.</p><h2>4. Browser storage</h2><p>This website uses browser local storage to remember that the visitor accepted the displayed policy version. Firebase Authentication uses persistent browser session storage so that a returning user can remain signed in, subject to browser settings, sign-out, and Firebase session validity.</p><h2>5. Third-party services</h2><p>Google and Firebase provide authentication and database services for the Google and guest options. Their processing is also subject to their own privacy terms and policies.</p><h2>6. Data retention and deletion</h2><p>Firebase account and database information may remain until the account and associated data are deleted. Account deletion requests can be submitted through the Request Account Deletion page. The request process must verify account ownership before deletion. A request is not itself proof of identity or an automatic deletion.</p><h2>7. Security limitations</h2><p>Reasonable technical safeguards, including authentication and database access rules, are intended to protect account information. No internet service can guarantee absolute security. Keep your account credentials and devices secure.</p><h2>8. Changes and contact</h2><p>This policy must be revised when the website's actual data practices change. Contact: [Add your official support email before publishing.]</p><div class="notice">Publisher action required: add a working support email and confirm these statements match the deployed Firebase rules and website behavior before making this policy live.</div></article></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — RG GAMER BOY FF</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<article class="doc">
+<a class="back" href="./">← Back to sign in</a>
+
+<h1>Privacy Policy</h1>
+<p>Last updated: 26 November 2026</p>
+
+<p>This Privacy Policy explains how RG GAMER BOY FF handles information when you use our Google sign-in page and main gaming website. It describes the features currently implemented in these pages. We may update this policy if our website or data practices change.</p>
+
+<h2>1. About RG GAMER BOY FF</h2>
+<p>RG GAMER BOY FF is an independent gaming information website. The main website provides game information, descriptions, platform and version details, guides, and links to external websites and download destinations.</p>
+
+<p>The main gaming website does not itself provide a registration form, payment service, or Firebase login form. Google sign-in is handled separately through our associated sign-in page.</p>
+
+<p>Browsing the website is free. We do not display advertisements on our website.</p>
+
+<h2>2. Google Sign-In and Account Information</h2>
+<p>Our separate sign-in page uses Google Sign-In through Firebase Authentication. When you choose to sign in with Google, Google and Firebase process the authentication required to verify your account.</p>
+
+<p>Depending on the information made available by Google, our sign-in system may receive:</p>
+<ul>
+<li>Firebase User ID</li>
+<li>Display name</li>
+<li>Email address</li>
+<li>Profile photo URL</li>
+<li>Authentication provider information</li>
+</ul>
+
+<p>We do not receive or store your Google account password. Google handles your Google account authentication under Google's own privacy and security policies.</p>
+
+<h2>3. Firebase Realtime Database</h2>
+<p>After successful Google sign-in, our sign-in page saves a basic account profile in Firebase Realtime Database under the corresponding Firebase User ID.</p>
+
+<p>The profile information used by the current implementation includes:</p>
+<ul>
+<li>Firebase User ID</li>
+<li>Sign-in provider</li>
+<li>Display name, when available</li>
+<li>Email address, when available</li>
+<li>Profile photo URL, when available</li>
+<li>Selected region</li>
+<li>Selected country</li>
+<li>Last sign-in timestamp</li>
+</ul>
+
+<p>This information is used to identify the signed-in account, maintain its basic profile, and support the sign-in experience.</p>
+
+<p>Firebase Authentication and Firebase Realtime Database are third-party services provided by Google. Their handling of information is also subject to Google's and Firebase's applicable terms and privacy documentation.</p>
+
+<h2>4. Region, Country and Connection Information</h2>
+<p>The sign-in page allows visitors to select a region and country. The selected region and country are stored in the browser's local storage and are also included in the Firebase account profile after successful sign-in.</p>
+
+<p>The sign-in page periodically sends requests to our Firebase Realtime Database endpoint to display a connection response-time measurement. These requests are used to calculate the displayed database ping and are not intended to retrieve account profile information.</p>
+
+<p>The displayed internet speed is an estimate obtained from the browser's Network Information API when that API is supported. It is not a full internet speed test.</p>
+
+<p>The selected country is a choice made by the visitor. It should not be treated as verified physical location information.</p>
+
+<h2>5. Browser Storage and Session Information</h2>
+<p>Our pages use browser storage for limited website functions:</p>
+
+<ul>
+<li><strong>Local Storage:</strong> Remembers acceptance of the displayed Privacy Policy and Terms of Service and saves the selected region and country on the sign-in page.</li>
+<li><strong>Session Storage:</strong> Used for a temporary one-time handoff between the sign-in page and the main website.</li>
+<li><strong>Firebase Authentication Persistence:</strong> The sign-in page uses browser-local authentication persistence so that a returning signed-in user may remain authenticated until they sign out or the session is otherwise cleared or invalidated.</li>
+</ul>
+
+<p>You can manage or clear browser storage through your browser settings. Clearing it may affect saved preferences or the sign-in experience.</p>
+
+<h2>6. hCaptcha Verification</h2>
+<p>Some external-link actions on the main website use hCaptcha to help distinguish people from automated traffic.</p>
+
+<p>When hCaptcha loads, its provider may process technical, browser, device, and interaction information to perform verification. This processing is handled by hCaptcha under its own policies.</p>
+
+<p>For more information, read the <a href="https://www.hcaptcha.com/privacy" target="_blank" rel="noopener noreferrer">hCaptcha Privacy Policy</a> and <a href="https://www.hcaptcha.com/terms" target="_blank" rel="noopener noreferrer">hCaptcha Terms</a>.</p>
+
+<h2>7. External Images, Fonts and Website Services</h2>
+<p>Some website resources are loaded from external providers. These include Google Fonts, externally hosted images, hCaptcha, Firebase, and other services used by linked destinations.</p>
+
+<p>When your browser requests resources from an external provider, that provider may receive technical information such as your IP address, browser information, and request details. We do not control the data practices or retention policies of those providers.</p>
+
+<h2>8. External Websites and Downloads</h2>
+<p>Game, download, redeem, app-store, file-hosting, and community links may take you to third-party websites or services, including Discord and other external destinations.</p>
+
+<p>These services are not controlled by RG GAMER BOY FF. They may collect information, use cookies, display advertisements, request payment, or require their own sign-in process.</p>
+
+<p>Any information you provide directly to an external website is handled under that website's own privacy policy and terms. Please review those policies before using external services or submitting information.</p>
+
+<h2>9. Winter Features and Music</h2>
+<p>The main website includes seasonal winter presentation features such as animated snowfall, decorative interactive snowmen, and optional ambient music.</p>
+
+<p>The ambient soundtrack is loaded as an audio resource by the browser. Music playback may begin automatically where browser rules permit or after a visitor interacts with the page. The music can be paused or resumed using the website's music control.</p>
+
+<p>Interactive snowman sound effects are generated locally in the browser. These presentation features are not intended to collect account details.</p>
+
+<h2>10. Hosting and Technical Information</h2>
+<p>The website is hosted using GitHub Pages. When a visitor opens a website, the hosting provider and related network services may process technical request information such as IP address, browser or device information, requested resources, and request timestamps for delivery, security, and troubleshooting.</p>
+
+<p>We do not control the hosting provider's internal logs or retention practices. Please refer to the applicable provider policies for further information.</p>
+
+<h2>11. Cookies and Advertising</h2>
+<p>RG GAMER BOY FF does not display advertisements on its own website and does not intentionally use advertising cookies in the main static gaming page.</p>
+
+<p>Third-party services such as hCaptcha, Google, Firebase, and external websites may use cookies or similar technologies as part of their services. Their use is governed by their respective policies.</p>
+
+<p>You can manage cookies through your browser settings. Blocking certain cookies or storage features may affect sign-in, verification, or external services.</p>
+
+<h2>12. Account Deletion Requests</h2>
+<p>Visitors who have a Google account connected through our sign-in system may submit an account deletion request using the Account Deletion Request page.</p>
+
+<p>Submitting the request form does not automatically or immediately delete an account. The request must be reviewed, and account ownership may need to be verified before deletion is processed.</p>
+
+<p>Never submit your Google password, one-time verification code, or authentication token through a deletion request form.</p>
+
+<h2>13. Data Security and Retention</h2>
+<p>We use Firebase Authentication and Firebase Realtime Database for the account features described in this policy. Access to stored account information depends on the security rules and configuration applied to the Firebase project.</p>
+
+<p>Account and profile information may remain stored until it is deleted or the relevant service removes it under its applicable retention policies. No website or internet transmission can be guaranteed completely secure.</p>
+
+<h2>14. Children and Young Visitors</h2>
+<p>RG GAMER BOY FF is a general gaming information website. Visitors should check game age ratings and ask a parent or guardian before downloading files or using external services.</p>
+
+<p>Do not share passwords, verification codes, authentication tokens, or sensitive personal information on unknown websites or public community channels.</p>
+
+<h2>15. Changes to This Privacy Policy</h2>
+<p>This policy may be updated when website features, account services, or data practices change. The latest version will be published on this page with an updated date.</p>
+
+<h2>16. Contact</h2>
+<p>For general community questions, visitors may use the Discord link displayed on the relevant game page.</p>
+
+<p>This website does not currently publish a dedicated privacy-request email address. Please do not post private account information or sensitive personal details in public community channels.</p>
+
+<div class="notice">
+This policy describes the website features currently identified in the RG GAMER BOY FF main website and sign-in page. The website owner should review it against the live Firebase security rules, provider settings, and actual deployed behavior before publication.
+</div>
+
+</article>
+</body>
+  </html>
